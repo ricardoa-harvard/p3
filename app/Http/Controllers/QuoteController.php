@@ -7,10 +7,10 @@ use Illuminate\Http\Request;
 class QuoteController extends Controller
 {
     public function __invoke() {
-      return 'Showing all books';
+      return view('quote.index')->with(['title' => 'All Quotes']);
     }
 
     public function filterBooks() {
-      return 'showing a filtered list of books';
+      return view('quote.index')->with(['title' => 'Filtered Quotes']);
     }
 }

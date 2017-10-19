@@ -13,3 +13,10 @@
 
 Route::get('/', "QuoteController");
 Route::get('/search', "QuoteController@filterBooks");
+
+Route::get('/env', function () {
+    dump(config('app.name'));
+    dump(config('app.env'));
+    dump(config('app.debug'));
+    dump(config('app.url'));
+});

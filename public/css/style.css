@@ -1,0 +1,58 @@
+body {
+  background-color: #00dcff;
+  font-family: "Oxygen", sans-serif;
+}
+ul {
+  padding: 0px;
+  margin: 0px auto;
+  max-width: 500px;
+}
+h1 {
+  text-align: center;
+  font-size: 1.5em;
+}
+.container {
+  max-width: 500px;
+  margin: auto;
+}
+.form-container {
+  background-color: #009edf;
+  border-radius: 1px;
+  padding: 20px 40px;
+  color: white;
+  box-shadow: 2px 2px 5px #52aee4;
+  margin-bottom: 5px;
+}
+.form-container div {
+  padding: 5px 0px;
+}
+.generated-password {
+  color: white;
+  font-size: 1.5em;
+  margin: auto;
+  text-align: center;
+  text-shadow: 1px 1px black;
+}
+.quote-container {
+  min-height: 100px;
+  padding: 20px 10px 0px 80px;
+  border: solid 1px silver;
+  margin: 10px 0;
+  list-style: none;
+}
+.quote-container.bart {
+  background: url('../images/bart.gif') left center no-repeat white;
+}
+.quote-container.lisa {
+  background: url('../images/lisa.png') left center no-repeat white;
+}
+.quote-container.homer {
+  background: url('../images/homer.jpg') left center no-repeat white;
+}
+.quote-text {
+  font-style: italic;
+}
+.quote-author {
+  font-weight: bold;
+  display: block;
+}

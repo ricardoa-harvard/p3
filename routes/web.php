@@ -11,8 +11,7 @@
 |
 */
 
-Route::get('/', "QuoteController");
-Route::get('/search', "QuoteController@filterBooks");
+Route::get('/', "QuoteController@filterQuotes");
 
 Route::get('/env', function () {
     dump(config('app.name'));
